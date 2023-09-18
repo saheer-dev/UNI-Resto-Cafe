@@ -75,7 +75,7 @@ export default function Menu() {
               </div>
 
               <div>
-                <div className="flex w-28 h-28 overflow-hidden object-cover md:w-32 md:pr-4">
+                <div className="flex w-28 h-28 overflow-hidden object-cover md:w-32 md:pr-3">
                   {" "}
                   <img
                     className=" w-28 h-28 pr-1 md:w-32 md:h-28 md:rounded-xl"
