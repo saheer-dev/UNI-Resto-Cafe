@@ -10,7 +10,6 @@ const ContextApi = (props) => {
     axios
       .get("https://run.mocky.io/v3/a67edc87-49c7-4822-9cb4-e2ef94cb3099")
       .then((res) => {
-     
         setDatas(res.data[0]);
         console.log(res.data[0]);
         console.log("datas", datas);
