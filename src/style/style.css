@@ -1,0 +1,24 @@
+
+::-webkit-scrollbar {
+    height: 12px;
+    background: white;
+  }
+
+  ::-webkit-scrollbar-track {
+
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(233, 229, 229) ;
+    border-radius: 10px;
+    height: 1px;  
+  }
+
+  #active{
+    color: red;
+    border-bottom: 3px solid red;
+    font-weight: 500;
+}
+
+  
