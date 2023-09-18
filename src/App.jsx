@@ -10,7 +10,7 @@ function App() {
       <ContextApi>
         <Cart>
           <NavBar />
-          <div className="[90vw] mx-auto">
+          <div className="[90vw] my-auto">
             <Menu />
           </div>
         </Cart>
