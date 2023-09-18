@@ -32,7 +32,7 @@ export default function Menu() {
 
         <div className="w-[390px] flex flex-col  md:w-[100vw]">
           {details.table_menu_list[silderindex].category_dishes.map((m) => (
-            <div className="w-[390px] gap-2 flex place-start p-2  border-b-2 sm:w-[640px] sm:gap-1 md:w-[100vw] md:gap-2">
+            <div className="w-[390px] mx-auto gap-2 flex place-start p-2  border-b-2 sm:w-[640px] sm:gap-1 md:w-[100vw] md:gap-2">
               <div className="w-6 mt-1">
                 {m.dish_Type == 2 ? (
                   <div className="w-5 h-5 border-2 border-green-500 flex items-center justify-center">
